@@ -1,0 +1,36 @@
+.footer{
+    padding-bottom: 40px;
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.footer-arrow-button{
+  background-color: transparent;
+  border: none;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+
+  @media screen and (min-width: 1200px) {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+.footer-arrow-svg{
+  fill: #876def64;
+  transition-property: fill;
+  transition-duration: 500ms;
+
+  &:hover,
+  &:focus{
+    fill: aliceblue;
+  }
+}
